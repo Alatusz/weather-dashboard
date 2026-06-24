@@ -1,0 +1,44 @@
+{
+  "common": {
+    "search": "Search any city...",
+    "enter": "Enter",
+    "loading": "Locating Atmosphere",
+    "overview": "Overview",
+    "comprehensiveAnalytics": "Comprehensive weather analytics for ",
+    "comparison": "Comparison",
+    "addLocation": "Add Location",
+    "noCities": "No cities to compare"
+  },
+  "weather": {
+    "forecast": "7-Day Forecast",
+    "hourlyForecast": "Hourly Forecast",
+    "airQuality": "Air Quality",
+    "rainPrecipitation": "Rain Precipitation",
+    "maxTemp": "Max Temp",
+    "minTemp": "Min Temp",
+    "rainProb": "Rain Prob.",
+    "feelsLike": "Feels Like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "pressure": "Pressure",
+    "visibility": "Visibility",
+    "uvIndex": "UV Index",
+    "cloudCover": "Cloud Cover",
+    "good": "Good",
+    "moderate": "Moderate",
+    "unhealthySensitive": "Unhealthy for Sensitive Groups",
+    "unhealthy": "Unhealthy",
+    "veryUnhealthy": "Very Unhealthy",
+    "hazardous": "Hazardous",
+    "noRain": "No rain",
+    "lightRain": "Light drizzle",
+    "moderateRain": "Moderate rain",
+    "heavyRain": "Heavy rain"
+  },
+  "errors": {
+    "cityNotFound": "Location Not Found",
+    "cityNotFoundDesc": "We couldn't retrieve weather data for \"{{city}}\". Please check the spelling or try another city.",
+    "returnHome": "Return to Default",
+    "failedToLoad": "Failed to load"
+  }
+}

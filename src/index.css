@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-liquid-bg: #000000;
+  --color-liquid-heading: #FFFFFF;
+  --color-liquid-text: #C1C1C1;
+  --color-liquid-primary: #6B6B6B;
+  --color-liquid-depth: #2C2C2C;
+  --background-image-liquid-gradient: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+  --box-shadow-liquid: 0 8px 32px 0 rgba(44, 44, 44, 0.37);
+  --font-sans: "Inter", "Roboto", "Outfit", sans-serif;
+  --animate-spin-slow: spin 3s linear infinite;
+}
+
+@utility glass-panel {
+  background-color: color-mix(in srgb, var(--color-liquid-bg) 30%, transparent);
+  backdrop-filter: blur(24px);
+  border: 1px solid color-mix(in srgb, var(--color-liquid-heading) 10%, transparent);
+  box-shadow: var(--box-shadow-liquid);
+  border-radius: 1rem;
+}
+
+@utility glass-card {
+  background-color: color-mix(in srgb, var(--color-liquid-heading) 5%, transparent);
+  backdrop-filter: blur(16px);
+  border: 1px solid color-mix(in srgb, var(--color-liquid-heading) 20%, transparent);
+  box-shadow: var(--box-shadow-liquid);
+  border-radius: 0.75rem;
+  transition-property: all;
+  transition-duration: 300ms;
+
+  &:hover {
+    background-color: color-mix(in srgb, var(--color-liquid-heading) 10%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-liquid-heading) 30%, transparent);
+    transform: scale(1.02);
+  }
+}
+
+body {
+  background-color: var(--color-liquid-bg);
+  color: var(--color-liquid-heading);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+}

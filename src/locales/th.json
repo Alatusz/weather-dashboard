@@ -1,0 +1,44 @@
+{
+  "common": {
+    "search": "ค้นหาเมืองที่ต้องการ...",
+    "enter": "ค้นหา",
+    "loading": "กำลังประมวลผลชั้นบรรยากาศ",
+    "overview": "ภาพรวม",
+    "comprehensiveAnalytics": "ข้อมูลวิเคราะห์สภาพอากาศแบบเจาะลึกสำหรับ ",
+    "comparison": "เปรียบเทียบ",
+    "addLocation": "เพิ่มสถานที่",
+    "noCities": "ยังไม่มีเมืองสำหรับเปรียบเทียบ"
+  },
+  "weather": {
+    "forecast": "พยากรณ์ล่วงหน้า 7 วัน",
+    "hourlyForecast": "พยากรณ์รายชั่วโมง",
+    "airQuality": "คุณภาพอากาศ",
+    "rainPrecipitation": "ปริมาณน้ำฝน",
+    "maxTemp": "อุณหภูมิสูงสุด",
+    "minTemp": "อุณหภูมิต่ำสุด",
+    "rainProb": "โอกาสฝนตก",
+    "feelsLike": "รู้สึกเหมือน",
+    "humidity": "ความชื้น",
+    "wind": "ลม",
+    "pressure": "ความกดอากาศ",
+    "visibility": "ทัศนวิสัย",
+    "uvIndex": "ดัชนี UV",
+    "cloudCover": "เมฆปกคลุม",
+    "good": "ดี",
+    "moderate": "ปานกลาง",
+    "unhealthySensitive": "เริ่มมีผลกระทบ",
+    "unhealthy": "มีผลกระทบ",
+    "veryUnhealthy": "มีผลกระทบมาก",
+    "hazardous": "อันตราย",
+    "noRain": "ไม่มีฝน",
+    "lightRain": "ฝนปรอยๆ",
+    "moderateRain": "ฝนตกปานกลาง",
+    "heavyRain": "ฝนตกหนัก"
+  },
+  "errors": {
+    "cityNotFound": "ไม่พบสถานที่นี้",
+    "cityNotFoundDesc": "เราไม่สามารถดึงข้อมูลสภาพอากาศของ \"{{city}}\" ได้ โปรดตรวจสอบการสะกดคำหรือลองหาเมืองอื่น",
+    "returnHome": "กลับสู่หน้าเริ่มต้น",
+    "failedToLoad": "โหลดไม่สำเร็จ"
+  }
+}
