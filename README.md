@@ -1,6 +1,7 @@
 # 🌤️ Liquid Glass Weather App
 
-![Weather App Preview](public/weather.webp)
+<img width="1920" height="1208" alt="WeatherDashboard" src="https://github.com/user-attachments/assets/f5df2443-8951-4683-9d28-54dc334d01a2" />
+
 
 A premium, highly interactive Weather Dashboard built with modern web technologies. This application features a stunning "Liquid Glass" (Glassmorphism) dark-mode aesthetic, comprehensive weather analytics, interactive maps, and full Internationalization (i18n) support.
 
